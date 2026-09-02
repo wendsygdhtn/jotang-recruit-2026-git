@@ -27,10 +27,12 @@
 
 笔记
 
-1.commit message:提交时的注释
+0.commit message:提交时的注释
+
+1.仓库建立：在某文件夹中右键open git bush here,在命令行输入git init建立
 
 2.加入版本库：git add接git commit-m""
 
 3.查看仓库状态：git status
 
-4.
+4.查看历史记录：git log
