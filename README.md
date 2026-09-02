@@ -31,8 +31,14 @@
 
 1.仓库建立：在某文件夹中右键open git bush here,在命令行输入git init建立
 
-2.加入版本库：git add接git commit-m""
+2.加入版本库：git add（+ 文件名） 接git commit-m""（暂存和提交）
 
 3.查看仓库状态：git status
 
-4.查看历史记录：git log
+其中文件的三个状态：  
+红色：未被git跟踪的文件  
+绿色：被add到暂存区的文件，但未提交
+消失：已存入历史库，status中将不再显示
+
+4.查看历史提交记录：git log
+
