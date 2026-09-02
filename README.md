@@ -25,5 +25,12 @@
 
 3.我将之前储存我代码的一个文件夹转变为Git仓库，新建了txt文件，然后使用add，commit，log命令将其加入版本库并查看记录。
 
-新概念
+笔记
+
 1.commit message:提交时的注释
+
+2.加入版本库：git add接git commit-m""
+
+3.查看仓库状态：git status
+
+4.
