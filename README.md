@@ -32,7 +32,7 @@ commit message:提交时的注释
 指令  
 1.仓库建立：在某文件夹中右键open git bush here,在命令行输入git init建立  
 
-2.加入版本库：git add（+ 文件名） 接git commit-m""（暂存和提交）  
+2.加入版本库：git add（+ 文件名） 接git commit-m""（暂存和提交）（文件修改后可再次提交新版本）  
 
 3.查看仓库状态：git status  
 其中文件的三个状态：  
@@ -40,7 +40,9 @@ commit message:提交时的注释
 绿色：被add到暂存区的文件，但未提交  
 消失：已存入历史库，status中将不再显示  
 
-4.查看历史提交记录：git log  
+4.查看历史提交记录：git log，（加 --pretty=oneline可获得简省的记录）  
+
+5.查看被修改的对象：git diff（不包括Git还未跟踪的对象）
 
 
 
