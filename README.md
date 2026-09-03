@@ -13,7 +13,7 @@
 
 
 
-
+git
 
 
 学习过程及笔记
@@ -46,13 +46,15 @@ commit message:提交时的注释
 
 5.查看被修改的对象：git diff（不包括Git还未跟踪的对象）
 
-修改提交后，用git diff HEAD -- xxxxx.txt命令可以查看工作区和版本库里面最新版本的区别
+修改提交后，用git diff HEAD -- xxxxx(文件）  命令可以查看工作区和版本库里面最新版本的区别
 
 6.版本回退：git reset --hard HEAD~n（回退数）/HEAD(^^………^)(n个^)
 
 返回新版本/回退至前版本：git reset --hard xxxxx(版本号前几位，可通过git log或git reflog查询）
 
-7.撤销修改：git checkout -- readme.txt使文件回退回上次add或commit时的样子
+7.撤销修改：git restore xxxxx（文件） 使工作区文件回退回上次add或commit时的样子
+
+git restore --staged xxxxx(文件） 使暂存区文件回到工作区
 
 
 
