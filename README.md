@@ -58,6 +58,12 @@ commit message:提交时的注释
 
 git restore --staged xxxxx(文件） 使暂存区文件回到工作区
 
+8.同步到Github：git remote add origin+网页位置
+
+再接git branch -M main  
+git push -u origin main即可
+
+（未被提交的文件不会被同步至Github）
 
 
 
