@@ -27,6 +27,8 @@ git
 
 4.尝试了版本回退和返回
 
+5.我将Git仓库同步到了Github
+
 笔记
 
 commit message:提交时的注释
