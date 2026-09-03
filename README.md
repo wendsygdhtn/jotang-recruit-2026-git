@@ -25,6 +25,8 @@
 
 3.我将之前储存我代码的一个文件夹转变为Git仓库，新建了txt文件，然后使用add，commit，log命令将其加入版本库并查看记录。
 
+4.尝试了版本回退和返回
+
 笔记
 
 commit message:提交时的注释
@@ -43,6 +45,10 @@ commit message:提交时的注释
 4.查看历史提交记录：git log，（加 --pretty=oneline可获得简省的记录）  
 
 5.查看被修改的对象：git diff（不包括Git还未跟踪的对象）
+
+6.版本回退：git reset --hard HEAD~n（回退数）/HEAD(^^………^)(n个^)
+返回新版本/回退至前版本：git reset --hard xxxxx(版本号前几位，可通过git log或git reflog查询）
+
 
 
 
